@@ -72,3 +72,9 @@ embed {
   background-color: hsl(0, 0%, 92%);
   width: min(15rem, 20%);
 }
+
+.postInfo {
+  margin-left: 80%;
+
+  width: 20%;
+}
