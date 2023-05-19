@@ -41,6 +41,8 @@ content {
   margin-inline: auto;
 
   text-align: justify;
+
+  box-shadow: 1rem;
 }
 
 h1,
