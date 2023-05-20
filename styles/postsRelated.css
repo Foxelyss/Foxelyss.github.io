@@ -3,7 +3,9 @@
 
   background-color: var(--misc-element);
   width: min(18rem, 90%);
-  height: min(15rem, 50%);
+  height: min(10rem, 50%);
+
+  margin: 1rem;
 }
 
 .postInfo {
