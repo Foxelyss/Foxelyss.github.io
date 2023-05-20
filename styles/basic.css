@@ -7,6 +7,8 @@ body {
   padding: 0;
   margin: 0;
 
+  height: 100vh;
+
   counter-reset: section;
 }
 
@@ -15,7 +17,7 @@ nav {
   top: 0;
   display: flex;
 
-  background-color: hsl(0, 0%, 92%);
+  background-color: hsl(0, 0%, 82%);
 }
 
 nav > ul {
@@ -29,7 +31,7 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  color: hsl(0, 0%, 52%);
+  color: hsl(0, 0%, 32%);
 }
 
 content {
@@ -39,7 +41,7 @@ content {
 
   text-align: justify;
 
-  background-color: hsl(0, 0%, 99%);
+  background-color: hsl(0, 0%, 92%);
 }
 
 h1,
@@ -62,12 +64,6 @@ img,
 video,
 embed {
   max-width: 100%;
-}
-
-.container {
-  display: flex;
-  justify-content: space-around;
-  padding: 0;
 }
 
 .postCard {
