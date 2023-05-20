@@ -67,6 +67,12 @@ embed {
   max-width: 100%;
 }
 
+footer {
+  display: flex;
+
+  background-color: hsl(0, 0%, 82%);
+}
+
 .postCard {
   display: block;
 
