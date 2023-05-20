@@ -3,14 +3,14 @@
     --background: hsl(0, 0%, 100%);
 
     --header-primary: hsl(0, 0%, 82%);
-    --footer-primary: hsl(0, 0%, 100%);
+    --footer-primary: hsl(0, 0%, 82%);
 
     --text-titlebar: hsl(0, 0%, 32%);
     --text-primary: hsl(0, 0%, 0%);
 
     --section-default: hsl(0, 0%, 92%);
 
-    --misc-element: hsl(0, 0%, 89%);
+    --misc-element: hsl(0, 0%, 85%);
   }
 }
 
