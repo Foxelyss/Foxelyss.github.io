@@ -29,7 +29,7 @@ content {
 
   background-color: var(--section-default);
 
-  flex: 1;
+  flex-grow: 1;
 }
 
 h1,
