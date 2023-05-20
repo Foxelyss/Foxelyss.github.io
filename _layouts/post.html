@@ -10,14 +10,14 @@
   <link rel="stylesheet" href="/styles/basic.css" />
   <link rel="stylesheet" href="/styles/containers.css" />
 
-  <body>
+  <body class="columnContainer">
     {% include header.html %}
 
     <content class="columnContainer">
       <h1>{{page.title}}</h1>
       <div class="postInfo">
         Posted on {{page.date}}.<br />
-        Categories are {{page.categories}}.
+        Categories are: {{page.categories}}.
       </div>
       {{content}}
     </content>

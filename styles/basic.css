@@ -36,7 +36,7 @@ nav > ul > li > a {
 
 content {
   width: min(90rem, 85%);
-  margin-inline: auto;
+  align-self: center;
 
   text-align: justify;
 
