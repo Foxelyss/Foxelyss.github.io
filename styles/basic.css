@@ -19,10 +19,7 @@ nav {
 }
 
 nav > ul {
-  display: flex;
   justify-content: space-between;
-
-  padding-left: 0;
   width: 100%;
 }
 
@@ -42,13 +39,12 @@ content {
 
   text-align: justify;
 
-  background-color: hsl(0, 0%, 98%);
+  background-color: hsl(0, 0%, 99%);
 }
 
 h1,
 h2 {
   text-align: center;
-  font-family: Cantarell;
   margin-bottom: 1em;
 }
 
