@@ -34,6 +34,17 @@ nav > ul > li > a {
   color: hsl(0, 0%, 32%);
 }
 
+footer > ul > li {
+  list-style-type: none;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+
+  background-color: hsl(0, 0%, 100%);
+}
+
 content {
   width: min(90rem, 85%);
   align-self: center;
@@ -65,12 +76,6 @@ img,
 video,
 embed {
   max-width: 100%;
-}
-
-footer {
-  display: flex;
-
-  background-color: hsl(0, 0%, 82%);
 }
 
 .postCard {
