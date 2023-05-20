@@ -45,7 +45,7 @@ footer > ul > li {
 footer {
   display: flex;
 
-  background-color: hsl(0, 0%, 100%);
+  background-color: var(--footer-primary);
 }
 
 content {
@@ -86,7 +86,7 @@ embed {
 .postCard {
   display: block;
 
-  background-color: hsl(0, 0%, 89%);
+  background-color: var(--misc-element);
   width: min(15rem, 20%);
   border-radius: 0.4rem;
 }
