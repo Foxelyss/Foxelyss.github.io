@@ -1,0 +1,27 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: hsl(0, 0%, 100%);
+
+    --header-primary: hsl(0, 0%, 82%);
+    --footer-primary: hsl(0, 0%, 100%);
+
+    --text-titlebar: hsl(0, 0%, 32%);
+    --text-primary: hsl(0, 0%, 100%);
+
+    --section-default: hsl(0, 0%, 92%);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: hsl(0, 0%, 21%);
+
+    --header-primary: hsl(0, 0%, 82%);
+    --footer-primary: hsl(0, 0, 0);
+
+    --text-titlebar: hsl(0, 0%, 100%);
+    --text-primary: hsl(0, 0%, 100%);
+
+    --section-default: hsl(0, 0%, 17%);
+  }
+}
