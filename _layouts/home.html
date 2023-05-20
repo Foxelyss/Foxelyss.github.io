@@ -12,10 +12,14 @@
   <body>
     {% include header.html %}
 
-    <content> {{content}} </content>
+    <content>
+      {{content}}
 
-    <h1>Articles</h1>
+      <h1>Articles</h1>
 
-    {% include postsList.html %} {% include footer.html %}
+      {% include postsList.html %}
+    </content>
+
+    {% include footer.html %}
   </body>
 </html>
