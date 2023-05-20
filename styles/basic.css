@@ -35,13 +35,14 @@ nav > ul > li > a {
 }
 
 content {
-  display: block;
   width: min(90rem, 85%);
   margin-inline: auto;
 
   text-align: justify;
 
   background-color: hsl(0, 0%, 92%);
+
+  flex: 1;
 }
 
 h1,
@@ -69,7 +70,7 @@ embed {
 .postCard {
   display: block;
 
-  background-color: hsl(0, 0%, 92%);
+  background-color: hsl(0, 0%, 89%);
   width: min(15rem, 20%);
 }
 
