@@ -2,7 +2,7 @@
   display: block;
 
   background-color: var(--misc-element);
-  width: min(15rem, 20%);
+  width: min(18rem, 20%);
 }
 
 .postInfo {

@@ -28,7 +28,6 @@ content {
   text-align: justify;
 
   background-color: var(--section-default);
-  border-radius: 0.4rem;
 
   flex: 1;
 }

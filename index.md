@@ -1,7 +1,8 @@
 ---
 layout: home
+title: "RedSharpObject's personal blog!"
 ---
 
-# Hi there
+# Hi!
 
 I'm programmer hobbyist.
