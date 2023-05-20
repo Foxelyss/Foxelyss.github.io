@@ -1,0 +1,10 @@
+footer > ul > li {
+  list-style-type: none;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+
+  background-color: var(--footer-primary);
+}

@@ -1,3 +1,9 @@
+@import url("/styles/containers.css");
+@import url("/styles/theming.css");
+@import url("/styles/footer.css");
+@import url("/styles/navigationBar.css");
+@import url("/styles/postsRelated.css");
+
 body {
   color-scheme: light dark;
 
@@ -13,39 +19,6 @@ body {
 
   color: var(--text-primary);
   background-color: var(--background);
-}
-
-nav {
-  position: sticky;
-  top: 0;
-  display: flex;
-
-  background-color: var(--header-primary);
-}
-
-nav > ul {
-  justify-content: space-between;
-  width: 100%;
-}
-
-nav > ul > li {
-  list-style-type: none;
-  margin: auto;
-}
-
-nav > ul > li > a {
-  color: var(--text-titlebar);
-}
-
-footer > ul > li {
-  list-style-type: none;
-  margin: auto;
-}
-
-footer {
-  display: flex;
-
-  background-color: var(--footer-primary);
 }
 
 content {
@@ -81,16 +54,4 @@ img,
 video,
 embed {
   max-width: 100%;
-}
-
-.postCard {
-  display: block;
-
-  background-color: var(--misc-element);
-  width: min(15rem, 20%);
-  border-radius: 0.4rem;
-}
-
-.postInfo {
-  text-align: right;
 }
