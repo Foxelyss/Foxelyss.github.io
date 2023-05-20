@@ -3,7 +3,7 @@
 
   background-color: var(--misc-element);
   width: min(18rem, 90%);
-  height: min(10rem, 50%);
+  height: 12rem;
 
   margin: 1rem;
 }
