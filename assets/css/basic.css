@@ -1,8 +1,8 @@
-@import url("./containers.css");
-@import url("./theming.css");
-@import url("./footer.css");
-@import url("./navigationBar.css");
-@import url("./postsRelated.css");
+@import url("/assets/css/containers.css");
+@import url("/assets/css/theming.css");
+@import url("/assets/css/footer.css");
+@import url("/assets/css/navigationBar.css");
+@import url("/assets/css/postsRelated.css");
 
 body {
   color-scheme: light dark;
