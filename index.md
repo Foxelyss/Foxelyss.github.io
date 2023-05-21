@@ -3,7 +3,7 @@ layout: home
 title: "RedSharpObject's personal blog!"
 ---
 
-### Hi there
+# Hi there
 
 I'm **programmer hobbyist**. I've programmed on different languages: Python, C, C++, C#, Rust,
 Assembler, Lua, Java, and so on. And I **loved** all of them, because everyone has its own charm!
