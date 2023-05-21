@@ -22,7 +22,7 @@ body {
 }
 
 content {
-  width: min(90rem, 85%);
+  width: min(80rem, 85%);
   align-self: center;
 
   text-align: justify;
