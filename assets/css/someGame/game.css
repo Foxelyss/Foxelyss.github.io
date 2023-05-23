@@ -1,0 +1,32 @@
+.game{
+  background: linear-gradient(#C25BDF,#B2C6FF,#C0EFCD);
+  
+ width: 50rem;
+  height: 50rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  
+  color:white;
+}
+
+.gameHeader{
+  font-family: 'Arial';
+  
+  color: inherit;
+  align-self: center;
+}
+
+.gameButton{
+  background-color: rgba(0,0,0,0);
+  
+  border: solid;
+  border-radius: 0.5rem;
+  
+  align-self: center;
+  width: 40rem;
+  height:10rem;
+  color: inherit;
+  text-align: center;
+  
+}
