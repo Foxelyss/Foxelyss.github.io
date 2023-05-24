@@ -1,32 +1,36 @@
-.game{
-  background: linear-gradient(#C25BDF,#B2C6FF,#C0EFCD);
-  
- width: 50rem;
+.game {
+  background: linear-gradient(#c25bdf, #b2c6ff, #c0efcd);
+
+  width: 50rem;
   height: 50rem;
   align-self: center;
   display: flex;
   flex-direction: column;
-  
-  color:white;
+
+  color: white;
 }
 
-.gameHeader{
-  font-family: 'Arial';
-  
+.gameElement {
+  font-family: "Arial";
+
   color: inherit;
   align-self: center;
 }
 
-.gameButton{
-  background-color: rgba(0,0,0,0);
-  
+.gameButton {
+  background-color: rgba(0, 0, 0, 0);
+  display: block;
+
   border: solid;
   border-radius: 0.5rem;
-  
+
   align-self: center;
   width: 40rem;
-  height:10rem;
+  height: 10rem;
   color: inherit;
   text-align: center;
-  
+
+  font-size: larger;
+
+  margin-bottom: 1rem;
 }
