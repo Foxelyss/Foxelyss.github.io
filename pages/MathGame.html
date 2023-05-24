@@ -16,9 +16,12 @@ title: Math 'em right!
     <button id="1" class="gameButton" onclick="CheckAnswer(1);">@</button>
     <button id="2" class="gameButton" onclick="CheckAnswer(2);">@</button>
     <button id="3" class="gameButton" onclick="CheckAnswer(3);">@</button>
-    <span id="results" style="display: flex; align-self: flex-start"
+  </div>
+
+  <div style="display: flex">
+    <span id="results" style="display: inline-flex; align-self: flex-start"
       >Your results</span
-    ><span id="time" style="display: flex; align-self: flex-end"
+    ><span id="time" style="display: inline-flex; align-self: flex-end"
       >Your time</span
     >
   </div>
@@ -51,6 +54,7 @@ title: Math 'em right!
   function getRandomArbitrary(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
+
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
@@ -82,7 +86,7 @@ title: Math 'em right!
       rightAnswersQuantity++;
       document.getElementById(
         "results"
-      ).textContent = `You win ${rightAnswersQuantity}`;
+      ).textContent = `Number of correct answers is ${rightAnswersQuantity}.`;
     }
 
     InstantiateExercise();

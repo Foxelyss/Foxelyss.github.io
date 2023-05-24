@@ -15,10 +15,12 @@
 
   color: inherit;
   align-self: center;
+
+  gap: 1rem;
 }
 
 .gameButton {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.164);
   display: block;
 
   border: solid;
@@ -32,7 +34,7 @@
 
   font-size: x-large;
 
-  margin-bottom: 1rem;
+  margin: auto;
 
   transition: all 0.1s ease-in-out;
 }
