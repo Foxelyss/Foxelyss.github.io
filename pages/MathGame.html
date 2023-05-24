@@ -10,12 +10,13 @@ title: Math 'em right!
   <div
     id="answers"
     class="gameElement columnContainer"
-    style="height: 100%; width: 100%"
+    style="height: 80%; width: 100%"
   >
-    <button id="0" class="gameButton" onclick="CheckAnswer();">@</button>
-    <button id="1" class="gameButton" onclick="CheckAnswer();">@</button>
-    <button id="2" class="gameButton" onclick="CheckAnswer();">@</button>
-    <button id="3" class="gameButton" onclick="CheckAnswer();">@</button>
+    <button id="0" class="gameButton" onclick="CheckAnswer(0);">@</button>
+    <button id="1" class="gameButton" onclick="CheckAnswer(1);">@</button>
+    <button id="2" class="gameButton" onclick="CheckAnswer(2);">@</button>
+    <button id="3" class="gameButton" onclick="CheckAnswer(3);">@</button>
+    <h3 id="results">Your results</h3>
   </div>
 </div>
 
@@ -25,6 +26,9 @@ title: Math 'em right!
     2: "-",
     3: "*",
   };
+
+  var answer = 0;
+  var rightAnswersQuantity = 0;
 
   function Compute(a, b, operation) {
     switch (operation) {
@@ -67,10 +71,18 @@ title: Math 'em right!
 
     btn = document.getElementById(getRandomArbitrary(0, 3));
     btn.textContent = rightAnswer;
+    answer = rightAnswer;
   }
+
   InstantiateExercise();
 
-  function CheckAnswer() {
+  function CheckAnswer(button) {
     InstantiateExercise();
+    if (document.getElementById(button).textContent == answer) {
+      rightAnswersQuantity++;
+      document.getElementById(
+        "results"
+      ).textContent = `You win ${rightAnswersQuantity}`;
+    }
   }
 </script>
