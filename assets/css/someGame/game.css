@@ -38,6 +38,27 @@
 
   transition: all 0.1s ease-in-out;
 }
+
 .gameButton:hover {
   transform: scale(110%);
+  transform: rotate(15deg);
+}
+
+@keyframes idle {
+  100% {
+  }
+}
+
+@keyframes shake {
+  from {
+  }
+  25% {
+    transform: rotate(-20deg);
+  }
+  75% {
+    transform: rotate(20deg);
+  }
+
+  to {
+  }
 }

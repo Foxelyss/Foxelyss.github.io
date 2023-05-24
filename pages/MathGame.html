@@ -60,14 +60,27 @@ title: Math 'em right!
   }
 
   function InstantiateExercise() {
+    label = document.getElementById("exercise");
+
     a = getRandomArbitrary(20, 60);
     b = getRandomArbitrary(8, 40);
 
     operation = getRandomArbitrary(1, 3);
 
-    document.getElementById(
-      "exercise"
-    ).textContent = `${a} ${operations[operation]} ${b}`;
+    label.textContent = `${a} ${operations[operation]} ${b}`;
+
+    label.animate(
+      [
+        { transform: "rotate(0)" },
+        { transform: "rotate(-32deg)" },
+        { transform: "rotate(32deg) " },
+        { transform: "rotate(0)" },
+      ],
+      {
+        duration: 200,
+        iterations: 1,
+      }
+    );
 
     rightAnswer = Compute(a, b, operation);
 
