@@ -25,12 +25,17 @@
   border-radius: 0.5rem;
 
   align-self: center;
-  width: 40rem;
-  height: 10rem;
+  width: 80%;
+  height: 24%;
   color: inherit;
   text-align: center;
 
   font-size: larger;
 
   margin-bottom: 1rem;
+
+  transition: all 0.1s ease-in-out;
+}
+.gameButton:hover {
+  transform: scale(110%);
 }

@@ -7,17 +7,15 @@ title: Math 'em right!
 <div class="roundedBorder game" id="game">
   <h1 id="exercise" class="gameElement">Exercise</h1>
 
-  <div id="answers" class="gameElement">
-    <button id="0" class="gameButton">@</button>
-    <button id="1" class="gameButton">@</button>
-    <button id="2" class="gameButton">@</button>
-    <button id="3" class="gameButton">@</button>
+  <div id="answers" class="gameElement columnContainer">
+    <button id="0" class="gameButton" onclick="CheckAnswer();">@</button>
+    <button id="1" class="gameButton" onclick="CheckAnswer();">@</button>
+    <button id="2" class="gameButton" onclick="CheckAnswer();">@</button>
+    <button id="3" class="gameButton" onclick="CheckAnswer();">@</button>
   </div>
 </div>
 
 <script>
-  const button = `<button id="$" class="gameButton">@</button>`;
-
   const operations = {
     1: "+",
     2: "-",
@@ -67,4 +65,8 @@ title: Math 'em right!
     btn.textContent = rightAnswer;
   }
   InstantiateExercise();
+
+  function CheckAnswer() {
+    InstantiateExercise();
+  }
 </script>
