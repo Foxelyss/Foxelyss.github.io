@@ -41,7 +41,7 @@
 
 .gameButton:hover {
   transform: scale(110%);
-  transform: rotate(15deg);
+  transform: rotate(5deg);
 }
 
 @keyframes idle {
