@@ -56,7 +56,7 @@ title: Math 'em right!
 
   function InstantiateExercise() {
     a = getRandomArbitrary(1, 60);
-    b = getRandomArbitrary(1, 40);
+    b = getRandomArbitrary(8, 40);
 
     operation = getRandomArbitrary(1, 3);
 
@@ -73,20 +73,21 @@ title: Math 'em right!
         rightAnswer + getRandomArbitrary(1, 15) - getRandomArbitrary(7, 20);
     }
 
-    btn = document.getElementById(getRandomArbitrary(0, 3));
-    btn.textContent = rightAnswer;
-    answer = rightAnswer;
-  }
+    answer = getRandomArbitrary(0, 3);
 
-  InstantiateExercise();
+    btn = document.getElementById(answer);
+    btn.textContent = rightAnswer;
+  }
 
   function CheckAnswer(button) {
     InstantiateExercise();
-    if (document.getElementById(button).textContent == answer) {
+    if (button == answer) {
       rightAnswersQuantity++;
       document.getElementById(
         "results"
       ).textContent = `You win ${rightAnswersQuantity}`;
     }
   }
+
+  InstantiateExercise();
 </script>
