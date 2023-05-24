@@ -5,8 +5,10 @@ title: Math 'em right!
 
 <link rel="stylesheet" href="/assets/css/someGame/game.css" />
 <div class="roundedBorder game" id="game">
-  <h1 id="exercise" class="gameElement">Exercise</h1>
-
+  <h1 id="exercise" class="gameElement">Math game</h1>
+  <button id="startGame" class="gameButton" onclick="StartGame();">
+    Start game!
+  </button>
   <div
     id="answers"
     class="gameElement columnContainer"
@@ -95,5 +97,11 @@ title: Math 'em right!
     InstantiateExercise();
   }
 
-  InstantiateExercise();
+  function StartGame() {
+    document.getElementById("answers").style.display = "initial";
+    document.getElementById("startGame").style.display = "none";
+
+    InstantiateExercise();
+  }
+  document.getElementById("answers").style.display = "none";
 </script>
