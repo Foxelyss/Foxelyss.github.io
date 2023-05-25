@@ -6,3 +6,6 @@ github_username: RedSharpObject
 
 plugins:
   - jekyll-feed
+
+exclude:
+  - README.md
