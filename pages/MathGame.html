@@ -5,116 +5,112 @@ title: Math 'em right!
 
 <link rel="stylesheet" href="/assets/css/someGame/game.css" />
 <div class="roundedBorder game" id="game">
-  <h1 id="exercise" class="gameElement">Math game</h1>
-  <button id="startGame" class="gameButton" onclick="StartGame();">
-    Start game!
-  </button>
-  <div
-    id="answers"
-    class="gameElement columnContainer"
-    style="height: 80%; width: 100%"
-  >
-    <button id="0" class="gameButton" onclick="CheckAnswer(0);">@</button>
-    <button id="1" class="gameButton" onclick="CheckAnswer(1);">@</button>
-    <button id="2" class="gameButton" onclick="CheckAnswer(2);">@</button>
-    <button id="3" class="gameButton" onclick="CheckAnswer(3);">@</button>
-  </div>
+    <h1 id="exercise" class="gameElement">Math game</h1>
+    <button id="startGame" class="gameButton" onclick="StartGame();">
+        Start game!
+    </button>
+    <div id="answers" class="gameElement columnContainer" style="height: 80%; width: 100%">
+        <button id="0" class="gameButton" onclick="CheckAnswer(0);">@</button>
+        <button id="1" class="gameButton" onclick="CheckAnswer(1);">@</button>
+        <button id="2" class="gameButton" onclick="CheckAnswer(2);">@</button>
+        <button id="3" class="gameButton" onclick="CheckAnswer(3);">@</button>
+    </div>
 
-  <div style="display: flex; justify-content: space-around; padding: 1rem">
-    <div id="results" class="gameElement">Correct answers</div>
-    <div id="errors" class="gameElement">Errors</div>
-  </div>
+    <div style="display: flex; justify-content: space-around; padding: 1rem">
+        <div id="results" class="gameElement">Correct answers</div>
+        <div id="errors" class="gameElement">Errors</div>
+    </div>
 </div>
 
 <script>
-  const operations = {
-    1: "+",
-    2: "-",
-    3: "*",
-  };
+    const operations = {
+        1: "+",
+        2: "-",
+        3: "*",
+    };
 
-  var answer = 0;
-  var rightAnswersQuantity = 0;
+    var answer = 0;
+    var rightAnswersQuantity = 0;
 
-  var errors = 0;
+    var errors = 0;
 
-  function Compute(a, b, operation) {
-    switch (operation) {
-      case 1:
-        return a + b;
-        break;
-      case 2:
-        return a - b;
-        break;
-      case 3:
-        return a * b;
-        break;
-    }
-  }
-
-  function getRandomArbitrary(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-
-    return Math.floor(Math.random() * (max - min + 1) + min);
-  }
-
-  function InstantiateExercise() {
-    label = document.getElementById("exercise");
-
-    a = getRandomArbitrary(20, 60);
-    b = getRandomArbitrary(8, 40);
-
-    operation = getRandomArbitrary(1, 3);
-
-    label.textContent = `${a} ${operations[operation]} ${b}`;
-
-    label.animate(
-      [
-        { transform: "rotate(0)" },
-        { transform: "rotate(-12deg)" },
-        { transform: "rotate(12deg) " },
-        { transform: "rotate(0)" },
-      ],
-      {
-        duration: 50,
-        iterations: 1,
-      }
-    );
-
-    rightAnswer = Compute(a, b, operation);
-
-    for (i = 0; i < 4; i++) {
-      document.getElementById(i).textContent =
-        rightAnswer + getRandomArbitrary(1, 15) - getRandomArbitrary(7, 20);
+    function Compute(a, b, operation) {
+        switch (operation) {
+            case 1:
+                return a + b;
+                break;
+            case 2:
+                return a - b;
+                break;
+            case 3:
+                return a * b;
+                break;
+        }
     }
 
-    answer = getRandomArbitrary(0, 3);
+    function getRandomArbitrary(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
 
-    document.getElementById(answer).textContent = rightAnswer;
-  }
-
-  function CheckAnswer(button) {
-    if (button == answer) {
-      rightAnswersQuantity++;
-      document.getElementById(
-        "results"
-      ).textContent = `Number of correct answers is ${rightAnswersQuantity}.`;
-    } else {
-      errors++;
-      document.getElementById(
-        "errors"
-      ).textContent = `Number of errors is ${errors}.`;
+        return Math.floor(Math.random() * (max - min + 1) + min);
     }
 
-    InstantiateExercise();
-  }
+    function InstantiateExercise() {
+        label = document.getElementById("exercise");
 
-  function StartGame() {
-    document.getElementById("answers").style.display = "flex";
-    document.getElementById("startGame").style.display = "none";
+        a = getRandomArbitrary(20, 60);
+        b = getRandomArbitrary(8, 40);
 
-    InstantiateExercise();
-  }
-  document.getElementById("answers").style.display = "none";
+        operation = getRandomArbitrary(1, 3);
+
+        label.textContent = `${a} ${operations[operation]} ${b}`;
+
+        label.animate(
+            [
+                { transform: "rotate(0)" },
+                { transform: "rotate(-12deg)" },
+                { transform: "rotate(12deg) " },
+                { transform: "rotate(0)" },
+            ],
+            {
+                duration: 50,
+                iterations: 1,
+            }
+        );
+
+        rightAnswer = Compute(a, b, operation);
+
+        for (i = 0; i < 4; i++) {
+            document.getElementById(i).textContent =
+                rightAnswer + getRandomArbitrary(1, 15) - getRandomArbitrary(7, 20);
+        }
+
+        answer = getRandomArbitrary(0, 3);
+
+        document.getElementById(answer).textContent = rightAnswer;
+    }
+
+    function CheckAnswer(button) {
+        if (button == answer) {
+            rightAnswersQuantity++;
+            document.getElementById(
+                "results"
+            ).textContent = `Number of correct answers is ${rightAnswersQuantity}.`;
+        } else {
+            errors++;
+            document.getElementById(
+                "errors"
+            ).textContent = `Number of errors is ${errors}.`;
+        }
+
+        InstantiateExercise();
+    }
+
+    function StartGame() {
+        document.getElementById("answers").style.display = "flex";
+        document.getElementById("startGame").style.display = "none";
+
+        InstantiateExercise();
+    }
+    document.getElementById("answers").style.display = "none";
 </script>

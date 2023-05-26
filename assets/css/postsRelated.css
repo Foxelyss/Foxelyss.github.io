@@ -1,16 +1,16 @@
 .postCard {
-  display: block;
+    display: block;
 
-  background-color: var(--misc-element);
-  width: min(18rem, 90%);
-  height: 12rem;
+    background-color: var(--misc-element);
+    width: min(18rem, 90%);
+    height: 12rem;
 
-  margin: 1rem;
+    margin: 1rem;
 }
 
 .postInfo {
-  display: flex;
-  align-self: end;
+    display: flex;
+    align-self: end;
 
-  background-color: var(--misc-element);
+    background-color: var(--misc-element);
 }

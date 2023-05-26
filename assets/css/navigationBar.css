@@ -1,19 +1,19 @@
 nav {
-  display: flex;
+    display: flex;
 
-  background-color: var(--header-primary);
+    background-color: var(--header-primary);
 }
 
-nav > ul {
-  justify-content: space-between;
-  width: 100%;
+nav>ul {
+    justify-content: space-between;
+    width: 100%;
 }
 
-nav > ul > li {
-  list-style-type: none;
-  margin: auto;
+nav>ul>li {
+    list-style-type: none;
+    margin: auto;
 }
 
-nav > ul > li > a {
-  color: var(--text-titlebar);
+nav>ul>li>a {
+    color: var(--text-titlebar);
 }

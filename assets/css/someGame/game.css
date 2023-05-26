@@ -1,63 +1,62 @@
 .game {
-  background: linear-gradient(#c25bdf, #b2c6ff, #c0efcd);
+    background: linear-gradient(#c25bdf, #b2c6ff, #c0efcd);
 
-  width: 50rem;
-  height: 50rem;
-  align-self: center;
-  display: flex;
-  flex-direction: column;
+    width: 50rem;
+    height: 50rem;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
 
-  color: white;
+    color: white;
 }
 
 .gameElement {
-  font-family: "Arial";
+    font-family: "Arial";
 
-  color: inherit;
-  align-self: center;
+    color: inherit;
+    align-self: center;
 
-  gap: 1rem;
+    gap: 1rem;
 }
 
 .gameButton {
-  background-color: rgba(0, 0, 0, 0.164);
-  display: block;
+    background-color: rgba(0, 0, 0, 0.164);
+    display: block;
 
-  border: solid;
-  border-radius: 0.5rem;
+    border: solid;
+    border-radius: 0.5rem;
 
-  align-self: center;
-  width: 80%;
-  height: 24%;
-  color: inherit;
-  text-align: center;
+    align-self: center;
+    width: 80%;
+    height: 24%;
+    color: inherit;
+    text-align: center;
 
-  font-size: x-large;
+    font-size: x-large;
 
-  margin: auto;
+    margin: auto;
 
-  transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 .gameButton:hover {
-  transform: scale(110%);
+    transform: scale(110%);
 }
 
 @keyframes idle {
-  100% {
-  }
+    100% {}
 }
 
 @keyframes shake {
-  from {
-  }
-  25% {
-    transform: rotate(-20deg);
-  }
-  75% {
-    transform: rotate(20deg);
-  }
+    from {}
 
-  to {
-  }
+    25% {
+        transform: rotate(-20deg);
+    }
+
+    75% {
+        transform: rotate(20deg);
+    }
+
+    to {}
 }
