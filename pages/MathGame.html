@@ -3,7 +3,7 @@ layout: default
 title: Math 'em right!
 ---
 
-<link rel="stylesheet" href="/assets/css/someGame/game.css" />
+<link rel="stylesheet" href="/assets/css/MathGame/game.css" />
 <div class="roundedBorder game" id="game">
     <h1 id="exercise" class="gameElement">Math game</h1>
     <button id="startGame" class="gameButton" onclick="StartGame();">
@@ -92,12 +92,16 @@ title: Math 'em right!
 
     function CheckAnswer(button) {
         if (button == answer) {
+
             rightAnswersQuantity++;
+
             document.getElementById(
                 "results"
             ).textContent = `Number of correct answers is ${rightAnswersQuantity}.`;
         } else {
+
             errors++;
+
             document.getElementById(
                 "errors"
             ).textContent = `Number of errors is ${errors}.`;
@@ -112,5 +116,6 @@ title: Math 'em right!
 
         InstantiateExercise();
     }
+
     document.getElementById("answers").style.display = "none";
 </script>
