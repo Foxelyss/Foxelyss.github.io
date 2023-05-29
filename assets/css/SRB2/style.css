@@ -99,7 +99,7 @@ footer {
 }
 
 .movingBackground {
-    animation: moveBackground 10s linear infinite;
+    animation: moveBackground 1s linear infinite;
 }
 
 @keyframes moveMask {
