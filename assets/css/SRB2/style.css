@@ -8,7 +8,7 @@ body {
 
     --spikes-main-color: hsl(236.1, 84.8%, 38.8%);
     --background-color: hsl(0, 0%, 0%);
-    --movement-speed: 10;
+    --movement-speed: 1;
     --movement-fraction: calc(var(--movement-speed) * 5rem);
 
     color: white;
@@ -95,7 +95,7 @@ footer {
 }
 
 .movingMask {
-    animation: moveMask 10s linear infinite;
+    animation: moveMask 1s linear infinite;
 }
 
 .movingBackground {
