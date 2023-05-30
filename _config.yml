@@ -4,8 +4,5 @@ description: "Gaming, modding, programming"
 url: "https://redsharpobject.github.com"
 github_username: RedSharpObject
 
-plugins:
-  - jekyll-feed
-
 exclude:
   - README.md
