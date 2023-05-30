@@ -32,9 +32,7 @@ content {
     flex-grow: 1;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     text-align: center;
     margin-bottom: 1em;
 }
@@ -44,13 +42,11 @@ h2::before {
     content: counter(section) ". ";
 }
 
-a {
-    color: rgb(255, 187, 0);
+a, button {
+    color: var(--accent-color);
     font-weight: bold;
 }
 
-img,
-video,
-embed {
+img, video, embed {
     max-width: 100%;
 }

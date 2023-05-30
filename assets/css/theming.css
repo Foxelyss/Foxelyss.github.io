@@ -1,3 +1,7 @@
+:root {
+    --accent-color: hsl(288, 86%, 46%);
+}
+
 @media (prefers-color-scheme: light) {
     :root {
         --background: hsl(0, 0%, 100%);

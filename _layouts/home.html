@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
+{% include head.html %}
 
-  <body class="columnContainer">
+<body class="columnContainer">
     {% include header.html %}
 
-    <content class="columnContainer roundedBorder">
-      {{content}}
+    <content class="roundedBorder">
+        {{content}}
 
-      <h1>Posts</h1>
+        <h1>Posts</h1>
 
-      {% include postsList.html %}
+        {% include postsList.html %}
     </content>
 
     {% include footer.html %}
-  </body>
+</body>
+
 </html>

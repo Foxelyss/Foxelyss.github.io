@@ -1,0 +1,4 @@
+footer {
+    display: grid;
+    background-color: var(--header-primary);
+}

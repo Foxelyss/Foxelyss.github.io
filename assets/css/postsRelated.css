@@ -2,15 +2,18 @@
     display: block;
 
     background-color: var(--misc-element);
-    width: min(18rem, 90%);
-    height: 12rem;
-
-    margin: 1rem;
 }
 
 .postInfo {
-    display: flex;
+    display: inline;
     align-self: end;
+    margin-left: auto;
 
     background-color: var(--misc-element);
+    font-size: small;
+}
+
+.postsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 25%));
 }

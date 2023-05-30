@@ -1,8 +1,11 @@
 <nav class="navigation">
     <ul class="container">
-        <li><a href="/">Home</a></li>
-        <li><a href="https://github.com/RedSharpObject">Github</a></li>
-        <li><a href="/pages/about">About me</a></li>
-        <li><a href="/pages/MathGame">Math Game</a></li>
+        {% for topic in site.data.header %}
+        <li>
+            <a href="{{ topic.url }}">
+                {{ topic.name }}
+            </a>
+        </li>
+        {% endfor %}
     </ul>
 </nav>

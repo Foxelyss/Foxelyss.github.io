@@ -1,5 +1,9 @@
 <footer class="navigation">
-    <ul>
-        <li>&NonBreakingSpace;</li>
-    </ul>
+    {% for info in site.data.footer %}
+
+    <div>
+        {{ info.info }}
+    </div>
+
+    {% endfor %}
 </footer>
