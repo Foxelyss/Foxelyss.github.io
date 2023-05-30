@@ -1,16 +1,9 @@
 .postCard {
-    display: block;
-
     background-color: var(--misc-element);
 }
 
 .postInfo {
-    display: inline;
-    align-self: end;
-    margin-left: auto;
-
-    background-color: var(--misc-element);
-    font-size: small;
+    text-align: end;
 }
 
 .postsList {
