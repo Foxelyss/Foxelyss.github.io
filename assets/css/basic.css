@@ -1,8 +1,4 @@
-@import url("/assets/css/containers.css");
 @import url("/assets/css/theming.css");
-@import url("/assets/css/footer.css");
-@import url("/assets/css/navigationBar.css");
-@import url("/assets/css/postsRelated.css");
 
 body {
     color-scheme: light dark;
@@ -52,4 +48,53 @@ a, button {
 
 img, video, embed {
     max-width: 100%;
+}
+
+nav {
+    background-color: var(--header-primary);
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+    padding: 0;
+    width: 100%;
+}
+
+nav>ul>li>a {
+    color: var(--text-titlebar);
+}
+
+footer {
+    display: grid;
+
+    color: var(--text-titlebar);
+    background-color: var(--header-primary);
+
+    grid-template-columns: repeat(auto-fill, minmax(100px, 20%));
+    padding: 1rem;
+
+    text-align: center;
+}
+
+.roundedBorder {
+    padding: 0.4rem;
+    border-radius: 0.4rem;
+
+    box-shadow: 0px 0px 26px -5px #BCB8B83F;
+}
+
+.miscElement {
+    background-color: var(--misc-element);
+}
+
+.postInfo {
+    text-align: end;
+}
+
+.postsList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 25%));
 }

@@ -1,8 +1,0 @@
-.postInfo {
-    text-align: end;
-}
-
-.postsList {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 25%));
-}
