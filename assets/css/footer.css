@@ -1,4 +1,11 @@
 footer {
     display: grid;
+
+    color: var(--text-titlebar);
     background-color: var(--header-primary);
+
+    grid-template-columns: repeat(auto-fill, minmax(100px, 20%));
+    padding: 1rem;
+
+    text-align: center;
 }
