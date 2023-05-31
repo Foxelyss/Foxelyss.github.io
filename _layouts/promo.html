@@ -3,14 +3,11 @@
 {% include head.html %}
 
 <body class="columnContainer">
-    {% include header.html %}
-
-    <content class="rounded-border">
-        <h1>{{page.title}}</h1>
-
+    <content id="content">
         {{content}}
-
     </content>
+
+    {% include header.html %}
 
     {% include footer.html %}
 </body>

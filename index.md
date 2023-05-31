@@ -5,9 +5,9 @@ title: "RedSharpObject's personal blog!"
 
 # Posts
 
-<div class="postsList">
+<div class="posts-list">
     {% for post in site.posts %}
-    <div class="miscElement roundedBorder">
+    <div class="misc-element rounded-border">
         <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
         Posted on {{ post.date }}
     </div>
