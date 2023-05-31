@@ -19,6 +19,9 @@ body {
 
     color: var(--text-primary);
     background-color: var(--background);
+
+    display: flex;
+    flex-direction: column;
 }
 
 content {

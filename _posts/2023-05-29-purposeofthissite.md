@@ -6,5 +6,10 @@ categories: programming
 ---
 
 ## This is my homework guys!
+`test`
+```js
 
+document.getElemntByID("");
+
+```
 Goodbye!
