@@ -4,6 +4,7 @@
     width: 50rem;
     height: 50rem;
     align-self: center;
+    margin-inline: auto;
     display: flex;
     flex-direction: column;
 
