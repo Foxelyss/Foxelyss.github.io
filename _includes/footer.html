@@ -2,7 +2,14 @@
     {% for info in site.data.footer %}
 
     <div>
-        {{ info.info }}
+        {% if info.url %}
+        <a href="{{info.url}}">
+            {% endif %}
+            {{ info.info }}
+
+            {% if info.url %}
+        </a>
+        {% endif %}
     </div>
 
     {% endfor %}

@@ -59,7 +59,7 @@ img, video, embed {
 }
 
 content {
-    width: min(75ch, 95%);
+    width: min(125ch, 95%);
     align-self: center;
     flex-grow: 1;
     text-align: justify;
