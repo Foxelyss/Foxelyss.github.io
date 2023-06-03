@@ -1,8 +1,9 @@
-title: RSO's blog
+title: RedSharpObject's official website
 email: redsharpobject@gmail.com
-description: "Programming and music development."
+description: "Game development and programming."
 url: "https://redsharpobject.github.com"
 github_username: RedSharpObject
 
 exclude:
   - README.md
+  - license
