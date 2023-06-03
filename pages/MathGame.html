@@ -83,8 +83,10 @@ flex-direction: column;">
         rightAnswer = Compute(a, b, operation);
 
         for (i = 0; i < 4; i++) {
+            randomNumber = getRandomArbitrary(-15, 15);
+            randomNumber = randomNumber == 0 ? 1 : randomNumber;
             document.getElementById(i).textContent =
-                rightAnswer + getRandomArbitrary(1, 15) - getRandomArbitrary(7, 20);
+                rightAnswer + randomNumber;
         }
 
         answer = getRandomArbitrary(0, 3);
