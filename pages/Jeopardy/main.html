@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/assets//css/Jeopardy/jeopardy.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="game" class="game">
+      <div id="info" class="info"></div>
+
+      <div id="teams" class="status">
+        <ul>
+          <li>Правильно ответили команды:</li>
+          <li>
+            <div>
+              <label for="first">Команда № 1</label>
+              <input type="checkbox" id="first" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="second">Команда № 2</label>
+              <input type="checkbox" id="second" />
+            </div>
+          </li>
+          <li>
+            <div>
+              <label for="third">Команда № 3</label>
+              <input type="checkbox" id="third" />
+            </div>
+          </li>
+        </ul>
+        <div>
+          <button onClick="Win()">Дальше</button>
+        </div>
+      </div>
+    </div>
+    <ul class="results" id="results" style="display: none">
+      <li><div id="team1"></div></li>
+      <li><div id="team2"></div></li>
+      <li><div id="team3"></div></li>
+    </ul>
+  </body>
+
+  <script src="Jeopardy.js"></script>
+</html>
