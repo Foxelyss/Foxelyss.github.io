@@ -7,7 +7,18 @@
     <link href="/assets//css/Jeopardy/jeopardy.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="game" class="game">
+    <ul id="splash" class="results" style="gap: 1rem">
+      <li>Викторина</li>
+      <li>
+        <button
+          onclick="document.getElementById('splash').style = 'display: none';
+          document.getElementById('game').style = '';"
+        >
+          Начать
+        </button>
+      </li>
+    </ul>
+    <div id="game" class="game" style="display: none">
       <div id="info" class="info"></div>
 
       <div id="teams" class="status">

@@ -17,7 +17,7 @@ body {
   button,
   input[type="checkbox"] {
     font-size: large;
-
+    transform: scale(1.5);
     transition: all 0.2s ease-in-out;
   }
 
