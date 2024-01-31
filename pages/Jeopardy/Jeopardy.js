@@ -35,9 +35,10 @@ const questions_with_answers = [
   ],
   ["Найдите шаг алгебраической прогрессии 12; 6; 0", "-6"],
   ["Вычислите sin²180° + cos²180°", "sin²180° + cos²180° = 1"],
-  ["Решите задачу", ""],
-  ["", ""],
-  ["", ""],
+  [
+    "С помощью какой формулы можно вычислить треугольник, не зная величины ни одного угла.",
+    "Формула Герона",
+  ],
 ];
 
 var teams = [0, 0, 0];
@@ -74,13 +75,13 @@ function ToNextSlide(step = 1) {
 
   if (isAnswer) {
     header = "Ответ";
-    a = document.getElementById("first").disabled = true;
-    b = document.getElementById("second").disabled = true;
-    c = document.getElementById("third").disabled = true;
+    document.getElementById("first").disabled = true;
+    document.getElementById("second").disabled = true;
+    document.getElementById("third").disabled = true;
   } else {
-    a = document.getElementById("first").disabled = false;
-    b = document.getElementById("second").disabled = false;
-    c = document.getElementById("third").disabled = false;
+    document.getElementById("first").disabled = false;
+    document.getElementById("second").disabled = false;
+    document.getElementById("third").disabled = false;
   }
 
   header = `<h3 id="header">${header}</h3>`;
@@ -105,12 +106,11 @@ function ToNextSlide(step = 1) {
 
 function Win() {
   ToNextSlide();
-  a = document.getElementById("first").checked;
-  b = document.getElementById("second").checked;
-  c = document.getElementById("third").checked;
-  teams[0] += a;
-  teams[1] += b;
-  teams[2] += c;
+
+  teams[0] += document.getElementById("first").checked;
+  teams[1] += document.getElementById("second").checked;
+  teams[2] += document.getElementById("third").checked;
+
   UpdateDisplay();
 
   document.getElementById("first").checked = false;
