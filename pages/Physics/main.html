@@ -4,7 +4,7 @@
     <title></title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="/assets//css/Jeopardy/jeopardy.css" rel="stylesheet" />
+    <link href="/assets//css/Jeopardy/physics.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -23,12 +23,11 @@
         </button>
       </li>
       <li>Выполнил Смирнов Степан гр. 632</li>
+      <li>г. Томск</li>
     </ul>
     <div id="game" class="game" style="display: none">
-      <div id="info" class="info"></div>
-
       <div id="teams" class="status">
-        <ul>
+        <ul id="choose">
           <li>Правильно ответили команды:</li>
           <li>
             <div>
@@ -50,9 +49,11 @@
           </li>
         </ul>
         <div>
-          <button onClick="Win()">Дальше</button>
+          <button onClick="Win()">Далее</button>
         </div>
       </div>
+
+      <div id="info" class="info"></div>
     </div>
     <ul class="results" id="results" style="display: none">
       <li>Результаты:</li>

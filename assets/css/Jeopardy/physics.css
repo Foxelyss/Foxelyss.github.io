@@ -9,7 +9,7 @@ body {
 
   font-size: xx-large;
 
-  color: #fff;
+  color: #000;
   font-family: system-ui;
   grid-template-rows: 1fr;
   background-color: royalblue;
@@ -28,7 +28,9 @@ button:hover {
 
 .status {
   display: flex;
-  border-style: solid;
+  border-style: dashed;
+  color: #fff;
+  border-color: #fff;
   border-radius: 0.5rem;
   background-color: rgba(37, 155, 233, 0.205);
   justify-content: space-around;
@@ -45,8 +47,8 @@ button {
 }
 .game {
   display: grid;
-  background: linear-gradient(#34aed3, #c059e9);
-  grid-template-rows: 75% 25%;
+  background: linear-gradient(#8be4ff, #ff94ab);
+  grid-template-rows: 25% 75%;
   max-width: 100vw;
   max-height: 100vh;
   height: 100%;
@@ -63,7 +65,6 @@ img {
   max-height: 50%;
   height: min-content;
   max-width: 50%;
-  aspect-ratio: 1 / 1;
   margin: 0;
   padding: 0;
 }
@@ -90,7 +91,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  background-color: rgb(40, 214, 205);
+  background: linear-gradient(#79ff0b, #0ac294);
   box-sizing: content-box;
   border-top-style: dashed;
 }
