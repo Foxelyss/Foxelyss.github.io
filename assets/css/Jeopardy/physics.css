@@ -9,7 +9,7 @@ body {
 
   font-size: xx-large;
 
-  color: #000;
+  color: #fff;
   font-family: system-ui;
   grid-template-rows: 1fr;
   background-color: royalblue;
@@ -29,16 +29,13 @@ button:hover {
 .status {
   display: flex;
   border-style: dashed;
-  color: #fff;
   border-color: #fff;
-  border-radius: 0.5rem;
   background-color: rgba(37, 155, 233, 0.205);
   justify-content: space-around;
   align-items: center;
   margin-bottom: 0.5rem;
 }
 button {
-  border-radius: 0.5rem;
   background-color: rgba(37, 155, 233, 0.205);
   border-style: solid;
   border-color: white;
@@ -47,7 +44,6 @@ button {
 }
 .game {
   display: grid;
-  background: linear-gradient(#8be4ff, #ff94ab);
   grid-template-rows: 25% 75%;
   max-width: 100vw;
   max-height: 100vh;
