@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "RedSharpObject's personal blog!"
+title: "Foxelyss's personal blog!"
 ---
 
 # Posts
