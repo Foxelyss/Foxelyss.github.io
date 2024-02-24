@@ -5,3 +5,4 @@ github_username: Foxelyss
 exclude:
   - README.md
   - license
+  - jsconfig.json
