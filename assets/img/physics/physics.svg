@@ -24,13 +24,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="0.35261855"
-     inkscape:cx="1321.5414"
-     inkscape:cy="289.26442"
-     inkscape:window-width="967"
-     inkscape:window-height="1036"
+     inkscape:cx="2301.3537"
+     inkscape:cy="51.046662"
+     inkscape:window-width="1920"
+     inkscape:window-height="1050"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-maximized="0"
      inkscape:current-layer="layer1">
     <inkscape:page
        x="0"
@@ -173,17 +173,17 @@
      transform="translate(-47.340692,-77.404407)">
     <text
        xml:space="preserve"
-       style="font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
+       style="font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
        x="50.553192"
        y="114.0678"
        id="text1"><tspan
          sodipodi:role="line"
          id="tspan1"
-         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.683"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.683"
          x="50.553192"
          y="114.0678">S =</tspan></text>
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.08036;stroke-linejoin:round"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.08036;stroke-linejoin:round"
        id="rect1"
        width="78.724419"
        height="1.5016298"
@@ -191,7 +191,7 @@
        y="104.24918" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
        x="111.09943"
        y="98.48671"
        id="text2"><tspan
@@ -201,36 +201,36 @@
          y="98.48671">at²</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
+       style="font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
        x="120.71332"
        y="135.51064"
        id="text3"><tspan
          sodipodi:role="line"
          id="tspan3"
-         style="stroke-width:4.683"
+         style="stroke-width:4.683;fill:#ffffff;fill-opacity:1"
          x="120.71332"
          y="135.51064">2</tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#565656;stroke-width:2.45121;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9)"
+       style="fill:none;fill-rule:evenodd;stroke:#d3d3d3;stroke-width:2.45121;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9)"
        d="M 301.91489,81.91704 V 180.1057"
        id="path8"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#565656;stroke-width:2.45121;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9)"
+       style="fill:none;fill-rule:evenodd;stroke:#d3d3d3;stroke-width:2.45121;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker9)"
        d="M 392.13831,81.91704 V 180.1057"
        id="path10"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <ellipse
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
        id="path5"
        cx="301.91489"
        cy="71.984039"
        rx="33.351063"
        ry="33.015961" />
     <ellipse
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
        id="ellipse6"
        cx="392.13831"
        cy="71.984039"
@@ -238,26 +238,35 @@
        ry="33.015961" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.335px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79509;stroke-linejoin:round;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.335px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.79509;stroke-linejoin:round;stroke-dasharray:none"
        x="357.95221"
        y="23.891867"
        id="text10"><tspan
          sodipodi:role="line"
          id="tspan10"
-         style="stroke-width:0.79509"
+         style="stroke-width:0.79509;fill:#ffffff;fill-opacity:1"
          x="357.95221"
          y="23.891867">m = 2 кг</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.335px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.79509;stroke-linejoin:round;stroke-dasharray:none"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.335px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.79509;stroke-linejoin:round;stroke-dasharray:none"
        x="267.90363"
        y="23.718517"
        id="text11"><tspan
          sodipodi:role="line"
          id="tspan11"
-         style="stroke-width:0.79509"
+         style="stroke-width:0.79509;fill:#ffffff;fill-opacity:1"
          x="267.90363"
          y="23.718517">m = 4 кг</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.264583;stroke-opacity:1"
+       id="rect3"
+       width="260.5621"
+       height="210"
+       x="524.91547"
+       y="-9.8251647e-08"
+       rx="25.252258"
+       ry="25.252258" />
     <rect
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.0289;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
        id="rect2"
@@ -639,62 +648,62 @@
          x="763.22186"
          y="127.49037">h</tspan></text>
     <rect
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.1000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2.1000001;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect53"
        width="30.242464"
        height="32.5728"
        x="1161.5367"
        y="162.08748" />
     <path
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2.2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 955.1452,194.66028 1191.7792,90.193499 V 194.66028 Z"
        id="path53" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 955.63886,194.66028 -30.24243,-32.5728"
        id="path55"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.165;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="M 1192.4523,89.067978 1162.2098,56.495174"
        id="path56"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.11443;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker62);marker-end:url(#marker63)"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.11443;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker62);marker-end:url(#marker63)"
        d="M 931.5644,159.7864 1156.2755,59.121363"
        id="path57"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.16328;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.16328;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 1192.4523,89.067978 h 30.1529"
        id="path60"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.17619;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.17619;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
        d="m 1191.7792,194.66028 h 30.826"
        id="path61"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.096;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ConcaveTriangle);marker-end:url(#ConcaveTriangle)"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.096;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#ConcaveTriangle);marker-end:url(#ConcaveTriangle)"
        d="M 1222.0216,96.320362 V 188.77867"
        id="path64"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+       style="font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
        x="905.8313"
        y="54.536156"
        id="text64"><tspan
          sodipodi:role="line"
          id="tspan67">n =</tspan></text>
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.83461;stroke-linejoin:round"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.83461;stroke-linejoin:round"
        id="rect64"
        width="61.223877"
        height="1.5016298"
@@ -702,7 +711,7 @@
        y="44.717537" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
        x="966.37756"
        y="38.955063"
        id="text65"><tspan
@@ -710,7 +719,7 @@
          id="tspan68">h</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4.68299;stroke-linejoin:round"
        x="970.37805"
        y="74.387283"
        id="text66"><tspan
@@ -720,24 +729,24 @@
          y="74.387283">l</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.165;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.165;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="1239.5304"
        y="142.54951"
        id="text70"><tspan
          sodipodi:role="line"
          id="tspan70"
-         style="stroke-width:1.165;stroke:none;fill:#000000;fill-opacity:1"
+         style="stroke-width:1.165;stroke:none;fill:#ffffff;fill-opacity:1"
          x="1239.5304"
          y="142.54951">h</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.165;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.4px;font-family:'NotoSerif Nerd Font';-inkscape-font-specification:'NotoSerif Nerd Font, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.165;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        x="904.66412"
        y="539.78235"
        id="text71"
        transform="rotate(-25.115287)"><tspan
          sodipodi:role="line"
-         style="stroke-width:1.165"
+         style="stroke-width:1.165;fill:#ffffff;fill-opacity:1"
          x="904.66412"
          y="539.78235"
          id="tspan72">l</tspan></text>
