@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/assets/css/Jeopardy/mathgame.css" rel="stylesheet" />
+  </head>
+  <body>
+    <ul id="splash" class="results" style="gap: 1rem; font-size: x-large">
+      <li style="text-align: center">
+        Областное государственное бюджетное профессиональное образовательное
+        учреждение «Томский техникум информационных технологий»
+      </li>
+      <li>Викторина по математике</li>
+      <li>
+        <button id="start_game" style="color: aqua">Начать</button>
+      </li>
+      <li>
+        Количество команд
+        <input id="team_count_slider" type="range" min="2" max="5" value="3" />
+        <output id="team_count"></output>
+      </li>
+      <li>Выполнил Смирнов Степан гр. 632</li>
+      <li>г. Томск</li>
+    </ul>
+    <div id="game" class="game" style="display: none">
+      <div id="info" class="info"></div>
+
+      <div id="teams" class="status"></div>
+    </div>
+    <div class="results" id="results_screen" style="display: none">
+      <h3>Результаты:</h3>
+
+      <ul id="results_list"></ul>
+    </div>
+  </body>
+
+  <script src="/assets/MathGame.js"></script>
+</html>
