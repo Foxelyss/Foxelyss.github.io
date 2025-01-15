@@ -43,21 +43,19 @@ var teams_quantity = 3;
 var teams = [];
 
 var question = 0;
+var game_started = 0;
 
 function MakeResult() {
   let max_score = Math.max(...teams);
+  const results_list = document.getElementById("results_list");
 
   for (let i = 0; i < teams_quantity; i++) {
-    let team_result = document.createElement("li");
-    // button.setAttribute("attribute", "value");
-    team_result.innerHTML = `
-    <div>
+    results_list.innerHTML += `
     <label for="team${i}">${i + 1}</label>
     <progress id="file" max="${max_score}" 
     value="${teams[i]}">${teams[i]}</progress>
     <b>${teams[i]}</b>
-    </div>`;
-    document.getElementById("results_list").appendChild(team_result);
+    `;
   }
 }
 
@@ -68,6 +66,7 @@ function ToNextSlide(step = 1) {
     document.getElementById("game").style = "display: none;";
     document.getElementById("results_screen").style = "";
     MakeResult();
+    game_started = 2;
     return;
   }
 
@@ -134,7 +133,6 @@ function StartQuiz() {
   for (let i = 0; i < teams_quantity; i++) {
     teams[i] = 0;
     let button = document.createElement("button");
-    button.setAttribute("attribute", "value");
     button.innerHTML = i + 1;
     button.onclick = () => Win(i);
     document.getElementById("teams").appendChild(button);
@@ -148,4 +146,11 @@ function StartQuiz() {
   document.getElementById("teams").appendChild(button);
 
   ToNextSlide(0);
+  game_started = 1;
 }
+
+this.addEventListener("keypress", (event) => {
+  if (event.key == " " && game_started == 1 && !event.repeat) {
+    ToNextSlide();
+  }
+});
