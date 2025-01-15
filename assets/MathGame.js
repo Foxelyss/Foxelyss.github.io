@@ -4,14 +4,24 @@ const questions_with_answers = [
     `Совокупность первообразных для функции f(x) или для 
     дифференциала f(x)dx называется неопределенным интегралом`,
   ],
-  ["Найдите неопределенный интеграл", ""],
+  [
+    `Найдите неопределенный интеграл
+    <img src="/assets/img/decade/integral.png"></img>`,
+    `<img src="/assets/img/decade/answers/integral.png"></img>`,
+  ],
   [
     "Как можно избавиться от неопределенности в пределе?",
     `Преобразованием, разложекнием на множители, упрощением, 
     домножением на сопряженное, при помощи правила Лопиталя`,
   ],
-  ["Найдите предел", ""],
-  ["Найдите предел", ``],
+  [
+    `Найдите предел <img src="/assets/img/decade/limits.png"></img>`,
+    `<img src="/assets/img/decade/answers/limits.png"></img>`,
+  ],
+  [
+    `Найдите предел <img src="/assets/img/decade/limits.png"></img>`,
+    `<img src="/assets/img/decade/answers/limits.png"></img>`,
+  ],
   [
     "Асимптота кривой — это",
     `Асимптотой кривой называется прямая, к которой неограниченно 
@@ -19,24 +29,42 @@ const questions_with_answers = [
     начала координат. Различают вертикальные, горизонтальные и 
     наклонные асимптоты.`,
   ],
-  ["Найдите асимптоту", ""],
+  [
+    `Найдите асимптоту
+    <img src="/assets/img/decade/asymptote.png"></img>`,
+    `<img src="/assets/img/decade/answers/asymptote.png"></img>`,
+  ],
   [
     "Комплексное число — это ...",
     `Комплексное число — это выражение вида a + bi, где a, 
     b — действительные числа, а i — так называемая мнимая единица, 
     символ, квадрат которого равен –1, то есть i² = –1.`,
   ],
-  [`Найдите определенный интеграл`, ``],
-  ["Найдите площадь тела вращения", ``],
-  ["Числовой ряд это...", ""],
-  ["Какой ряд больше?", ""],
-  ["Какой это ряд?", ``],
+  [
+    `Найдите определенный интеграл
+    <img src="/assets/img/decade/def_integral.png"></img>`,
+    `<img src="/assets/img/decade/answers/def_integral.png"></img>`,
+  ],
+  [
+    `Найдите площадь тела вращения <img src="/assets/img/decade/volume.png"></img>`,
+    `<img src="/assets/img/decade/answers/volume.png"></img>`,
+  ],
+  ["Числовой ряд это...", `<img src="/assets/img/decade/row.png"></img>`],
+  [
+    `Какой ряд больше?
+    <img src="/assets/img/decade/harmonic_hint.png"></img>`,
+    `<img src="/assets/img/decade/answers/harmonic_hint.png"></img>`,
+  ],
+  [`Какой необходимый признак сходимости ряда?`, ``],
   [
     `Как решаются линейные однородные дифференциальные уравнения
     второго порядка с постоянными коэффициентами?`,
     `Составляется характеристическое уравнение r² + pr + q = 0`,
   ],
-  ["Решите дифф. уравнения", ""],
+  [
+    `Решите дифф. уравнения <img src="/assets/img/decade/diff.png"></img>`,
+    `<img src="/assets/img/decade/answers/diff.png"></img>`,
+  ],
 ];
 
 var teams_quantity = 3;
@@ -150,7 +178,12 @@ function StartQuiz() {
 }
 
 this.addEventListener("keypress", (event) => {
-  if (event.key == " " && game_started == 1 && !event.repeat) {
+  if (
+    event.key == " " &&
+    game_started == 1 &&
+    !event.repeat &&
+    event.eventPhase == 0
+  ) {
     ToNextSlide();
   }
 });
