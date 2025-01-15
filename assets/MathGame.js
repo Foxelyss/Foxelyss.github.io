@@ -14,14 +14,8 @@ const questions_with_answers = [
     `Преобразованием, разложекнием на множители, упрощением, 
     домножением на сопряженное, при помощи правила Лопиталя`,
   ],
-  [
-    `Найдите предел <img src="/assets/img/decade/limits.png"></img>`,
-    `<img src="/assets/img/decade/answers/limits.png"></img>`,
-  ],
-  [
-    `Найдите предел <img src="/assets/img/decade/limits.png"></img>`,
-    `<img src="/assets/img/decade/answers/limits.png"></img>`,
-  ],
+  [`Найдите предел <img src="/assets/img/decade/limits.png"></img>`, `-1/6`],
+  [`Найдите предел <img src="/assets/img/decade/limitsb.png"></img>`, `1`],
   [
     "Асимптота кривой — это",
     `Асимптотой кривой называется прямая, к которой неограниченно 
@@ -32,7 +26,7 @@ const questions_with_answers = [
   [
     `Найдите асимптоту
     <img src="/assets/img/decade/asymptote.png"></img>`,
-    `<img src="/assets/img/decade/answers/asymptote.png"></img>`,
+    `y=0 x=-5 x=5`,
   ],
   [
     "Комплексное число — это ...",
@@ -43,17 +37,17 @@ const questions_with_answers = [
   [
     `Найдите определенный интеграл
     <img src="/assets/img/decade/def_integral.png"></img>`,
-    `<img src="/assets/img/decade/answers/def_integral.png"></img>`,
+    `π/12`,
   ],
   [
     `Найдите площадь тела вращения <img src="/assets/img/decade/volume.png"></img>`,
-    `<img src="/assets/img/decade/answers/volume.png"></img>`,
+    `1,5кв. ед`,
   ],
   ["Числовой ряд это...", `<img src="/assets/img/decade/row.png"></img>`],
   [
     `Какой ряд больше?
-    <img src="/assets/img/decade/harmonic_hint.png"></img>`,
-    `<img src="/assets/img/decade/answers/harmonic_hint.png"></img>`,
+    <img src="/assets/img/decade/harmonic.png"></img>`,
+    `<img src="/assets/img/decade/harmonic_hint.png"></img>`,
   ],
   [`Какой необходимый признак сходимости ряда?`, ``],
   [
@@ -62,7 +56,7 @@ const questions_with_answers = [
     `Составляется характеристическое уравнение r² + pr + q = 0`,
   ],
   [
-    `Решите дифф. уравнения <img src="/assets/img/decade/diff.png"></img>`,
+    `Решите дифф. уравнение <img src="/assets/img/decade/diff.png"></img>`,
     `<img src="/assets/img/decade/answers/diff.png"></img>`,
   ],
 ];
@@ -178,12 +172,7 @@ function StartQuiz() {
 }
 
 this.addEventListener("keypress", (event) => {
-  if (
-    event.key == " " &&
-    game_started == 1 &&
-    !event.repeat &&
-    event.eventPhase == 0
-  ) {
+  if (event.key == " " && game_started == 1 && !event.repeat) {
     ToNextSlide();
   }
 });
